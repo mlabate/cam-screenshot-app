@@ -1,6 +1,9 @@
 # Cam Screenshot App
 
-A simple and light react web application that allows to take a picture from your device camera and send it to a backend server
+A simple and light react web application that allows to take a picture from your device camera and send it to a backend server.
+There are two mandatory checkboxes (for privacy, marketing, and so on ;) ), but they are just an example, because their aren't saved anywhere.
+
+![image](https://user-images.githubusercontent.com/17139676/81560685-33b17e80-9392-11ea-9b20-f725f2541632.png)
 
 ## Basic setup
 
