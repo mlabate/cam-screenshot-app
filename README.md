@@ -23,7 +23,7 @@ cp .env.example .env
 yarn start
 ```
 
-- Navigate to local developement server (`https://localhost:3000`)
+- Navigate to local developement server (`http://localhost:3000`)
 
 #### Run - Production
 ```
@@ -46,4 +46,4 @@ yarn install
 yarn start
 ```
 
-- Your local upload server is running on `https://localhost:5000`
+- Your local upload server is running on `http://localhost:5000`
