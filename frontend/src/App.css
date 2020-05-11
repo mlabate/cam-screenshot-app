@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  /*margin-right: 30px; */
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: start;
+  /* width: 100%;*/
+}
+.logo a {
+  width: 200px;
+  height: 100px;
+  background: transparent;
+  background-image: url(/assets/img/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.logo h1 {
+  margin: 15px 0;
+}
+.logo p {
+  margin: 10px 0;
+}
+
+/*.App-header {
+  height: 120px;
+}*/
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

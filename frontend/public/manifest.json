@@ -1,0 +1,15 @@
+{
+  "short_name": "CamScreenshot",
+  "name": "CAM Screenshot React",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16 16x12",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

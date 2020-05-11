@@ -1,0 +1,13 @@
+.notify{
+    /*background-color: #0066B2;*/
+    /*padding: 1px;*/
+    text-align: center;
+    /*color: white;*/
+    color: #443288;
+    margin-bottom: 15px/*20px*/;
+    box-shadow: 10px 5px 5px #aaaaaa6b;
+}
+
+.danger{
+    background-color: #D77623;
+}

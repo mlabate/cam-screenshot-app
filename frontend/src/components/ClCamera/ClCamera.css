@@ -1,0 +1,187 @@
+.captureButton{
+    margin: 10px;
+    font-weight: bold;
+    border: 1px solid #443288;
+    color: #443288;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    padding: 19px 35px;
+    font-size: 19px;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    transition: background 0.25s ease-out, color 0.25s ease-out, opacity 0.25s ease-out, border-color 0.25s ease-out, background-color 0.25s ease-out;
+    text-decoration: none;
+    text-align: center;
+}
+.captureButton:disabled
+{
+    opacity:0.5;
+}
+.captureButton:hover {
+    background: #443288;
+    color: #FFFFFF;
+    border: 1px solid #443288;
+}
+
+.privacyboxes {
+    display: flex;
+    /*max-width: 550px;*/
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+.privacybox {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+}
+.privacybox .label {
+    font-size: 14px;
+    margin-left: 5px;
+    text-align: justify;
+    color: #443288;
+}
+input[type='checkbox'] {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    margin: 15px;
+}
+input[type='checkbox']:after {
+    content: "";
+    vertical-align: middle;
+    text-align: center;
+    line-height: 13px;
+    position: absolute;
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    /*-webkit-box-shadow: inset 0 1px 1px #44328875, 0 1px 0 #44328875;
+    -moz-box-shadow: inset 0 1px 1px #44328875, 0 1px 0 #44328875;
+    box-shadow: inset 0 1px 1px #44328875, 0 1px 0 #44328875;*/
+    border: 1px solid #44328875;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+/*input[type='checkbox']:hover:after, input[type='checkbox']:checked:hover:after {
+    background: #443288;
+    content: '\2714';
+    color: #fff;
+}*/
+input[type='checkbox']:checked:after {
+    background: #443288;
+    content: '\2714';
+    color: #fff;
+    height: 13px;
+    width: 13px;
+}
+
+/*.info {
+
+}
+.info .label {
+
+}*/
+
+.deleteButton{
+    margin: 10px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 19px 35px;
+    display: inline-block;
+    background-color: #443288;
+    border: 1px solid #443288;
+    color: #FFFFFF;
+    line-height: 1;
+    position: relative;
+    transition: background 0.25s ease-out, color 0.25s ease-out, opacity 0.25s ease-out, border-color 0.25s ease-out, background-color 0.25s ease-out;
+    text-decoration: none;
+    text-align: center;
+}
+.deleteButton:disabled {
+    opacity:0.5;
+}
+.deleteButton:hover {
+    color: #443288;
+    background: #FFFFFF;
+    border: 1px solid #443288;
+}
+
+.name {
+    padding-top: 10px;
+    color: #443288;
+}
+.name label {
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.name input {
+    padding: 5px 15px;
+    font-size: 19px;
+    /*text-transform: uppercase;*/
+    border: none;
+    border-bottom: 1px solid;
+    width: 250px;
+    color: #443288;
+}
+::placeholder {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.imageCanvas {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .privacyboxes {
+        display: block;
+        width: 90%;
+    }
+    .privacybox {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo a {
+        width: 190px;
+        height: 75px;
+        background-size: 150px;
+    }
+    .logo h1 {
+        margin: 0px;
+    }
+     .logo p {
+         margin: 5px 0;
+     }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo a {
+        width: 95px;
+        height: 55px;
+        background-size: 70px;
+        margin-left: -40px;
+    }
+    .logo h1 {
+        font-size: 22px;
+    }
+    .logo p {
+        font-size: 11px;
+    }
+}
